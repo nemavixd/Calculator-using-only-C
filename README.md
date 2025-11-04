@@ -55,7 +55,7 @@ void applyOp(char op) {
 // ======= MAIN FUNCTION =======
 int main() {
     char expr[MAX];
-    printf("----- Ultimate Flexible Calculator -----\n");
+    printf("----- Basic Calculator -----\n");
     printf("Enter an expression (e.g. 2+2-4/6*7 or (5+3)*2-4/2):\n");
 
     fgets(expr, sizeof(expr), stdin);
